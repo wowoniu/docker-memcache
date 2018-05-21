@@ -1,4 +1,4 @@
-FROM ubuntu:1404-163
+FROM zhiqiangvip/docker-ubuntu1404-163
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
 RUN groupadd -r memcache && useradd -r -g memcache memcache
